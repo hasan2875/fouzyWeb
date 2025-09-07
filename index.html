@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fouzy Travels</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h2>Fouzy Travels</h2>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#ai">AI Help</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <h1>Welcome to Fouzy Travels</h1>
+    <p>Ticket Booking & Online Services in Melapalayam, Tirunelveli</p>
+    <a href="#services" class="btn">Explore Services</a>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Fouzy Travels is your trusted partner for flight, train, and bus ticket bookings along with a wide range of online services. We are dedicated to making your travel and digital service needs easier, faster, and more reliable. Located in Melapalayam, Tirunelveli, we are committed to offering professional and affordable services for everyone.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card"><h3>Ticket Booking</h3><p>Flight, Train, and Bus ticket booking made simple and fast.</p></div>
+      <div class="card"><h3>Money Transfer</h3><p>Secure and quick domestic and international money transfer services.</p></div>
+      <div class="card"><h3>Aadhaar & PAN Services</h3><p>Aadhaar updates, PAN card applications, and related services.</p></div>
+      <div class="card"><h3>Government Applications</h3><p>Voter ID, Ration Card, and other government application support.</p></div>
+      <div class="card"><h3>Exam Applications</h3><p>Application support for TNPSC, TRB, UPSC, SSC, NEET, JEE, and more.</p></div>
+      <div class="card"><h3>Passport & Certificates</h3><p>Passport services, birth & death certificates, and other online services.</p></div>
+      <div class="card"><h3>Bill Payments</h3><p>Electricity, water, and miscellaneous online bill payments.</p></div>
+      <div class="card"><h3>School & College Fees</h3><p>Convenient online fee payment services for schools and colleges.</p></div>
+    </div>
+  </section>
+
+  <!-- AI Help -->
+  <section id="ai">
+    <h2>AI Help Assistant</h2>
+    <div class="ai-section">
+      <h3>Ask Anything (English / தமிழ்)</h3>
+      <div id="chatBox" class="chat-box"></div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your question...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center; margin-top:1rem;">
+      📍 No.4, South Mohideen Palli Street, Melapalayam, Tirunelveli - 05<br>
+      📧 fouzytravels@gmail.com<br>
+      📞 8754216875 | 9944838747
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Fouzy Travels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
